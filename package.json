@@ -1,0 +1,28 @@
+{
+  "name": "esdoc-alias-plugin",
+  "version": "0.0.1",
+  "description": "Alias resolver Plugin for ESDoc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregaou/esdoc-alias-plugin"
+  },
+  "keywords": [
+    "esdoc",
+    "alias"
+  ],
+  "scripts": {
+    "build": "node ./script/build.js",
+    "esdoc": "./node_modules/.bin/esdoc -c esdoc.json"
+  },
+  "devDependencies": {
+      "babel": "^5.8.20",
+      "esdoc": "^0.2.0"
+  },
+  "files": [
+    "out/src",
+    "README.md"
+  ],
+  "main": "out/src/Plugin.js",
+  "author": "Grégoire Rit",
+  "license": "MIT"
+}
