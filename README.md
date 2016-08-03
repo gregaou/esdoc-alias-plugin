@@ -31,9 +31,9 @@ Can be resolve with ``esdoc-alias-plugin`` with this configuration:
       "name": "esdoc-alias-plugin",
       "option": {
         "replaces": [
-          {"from": "^app/", "to": "src/app/"}
-          {"from": "^core/", "to": "src/core/"}
-          {"from": "^locales/", "to": "src/locales/"}
+          {"from": "^app/", "to": "src/app/"},
+          {"from": "^core/", "to": "src/core/"},
+          {"from": "^locales/", "to": "src/locales/"},
           {"from": "^assets/", "to": "src/app/assets/"}
         ]
       }
