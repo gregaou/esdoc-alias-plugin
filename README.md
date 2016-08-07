@@ -1,5 +1,7 @@
 # ESDoc Alias Plugin
 
+[![Build Status](https://travis-ci.org/gregaou/esdoc-alias-plugin.svg?branch=master)](https://travis-ci.org/gregaou/esdoc-alias-plugin)
+
 This is a plugin to convert import path inside the AST for using ESDoc with alias.
 Tested only with ``babel-plugin-module-alias`` for the moment.
 Would work with other systems, like ``webpack resolve.alias``.
