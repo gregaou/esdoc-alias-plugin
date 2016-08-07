@@ -1,6 +1,13 @@
 # ESDoc Alias Plugin
-
+[![Latest Stable Version](https://img.shields.io/npm/v/esdoc-alias-plugin.svg)](https://www.npmjs.com/package/esdoc-alias-plugin)
+[![License](https://img.shields.io/npm/l/esdoc-alias-plugin.svg)](https://www.npmjs.com/package/esdoc-alias-plugin)
 [![Build Status](https://travis-ci.org/gregaou/esdoc-alias-plugin.svg?branch=master)](https://travis-ci.org/gregaou/esdoc-alias-plugin)
+
+
+[![Dependency Status](https://gemnasium.com/badges/github.com/gregaou/esdoc-alias-plugin.svg)](https://gemnasium.com/github.com/gregaou/esdoc-alias-plugin)
+
+[![Code Climate](https://codeclimate.com/github/gregaou/esdoc-alias-plugin/badges/gpa.svg)](https://codeclimate.com/github/gregaou/esdoc-alias-plugin)
+[![Issue Count](https://codeclimate.com/github/gregaou/esdoc-alias-plugin/badges/issue_count.svg)](https://codeclimate.com/github/gregaou/esdoc-alias-plugin)
 
 This is a plugin to convert import path inside the AST for using ESDoc with alias.
 Tested only with ``babel-plugin-module-alias`` for the moment.
