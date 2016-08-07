@@ -25,7 +25,7 @@ export function onHandleAST(ev) {
       for (let item of option.replaces) {
         node.source.value = node.source.value.replace(item.from, item.to)
       }
-      if (tmp != node.source.value) {
+      if (tmp !== node.source.value) {
         node.source.value = node.source.value + ".js"
       }
     }
