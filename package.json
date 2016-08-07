@@ -11,9 +11,9 @@
     "alias"
   ],
   "scripts": {
-    "build": "node ./script/build.js",
-    "esdoc": "./node_modules/.bin/esdoc -c esdoc.json",
-    "update-doc": "node ./script/update-doc.js"
+    "build": "node ./script/build.js || true",
+    "esdoc": "./node_modules/.bin/esdoc -c esdoc.json || true",
+    "update-doc": "node ./script/update-doc.js || true"
   },
   "devDependencies": {
       "babel-cli": "^6.0.0",
