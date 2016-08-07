@@ -6,5 +6,12 @@ node_js:
   - "6.1"
   - "5.11"
   - "iojs"
+cache:
+  directories:
+    - node_modules
+before_install:
+  - npm prune
 install:
   - npm install
+after_success:
+  - 'npm run update-doc --silent'
